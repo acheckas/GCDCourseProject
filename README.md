@@ -3,8 +3,8 @@ This repo contains the course project for Week 4.
 
 Included in the repo are the following assets:
 * This ReadMe markdown document you're currently viewing
-* A run_analysis.R script
-* A Codebook markdown document
+* A [run_analysis.R](run_analysis.R) script
+* A [Codebook markdown document](CodeBook.md)
 * In the output directory, there is a tidy data text file representing the last run of the application
 
 ### About the run_analysis.R script
@@ -30,12 +30,13 @@ human read-able as the sensor data allows.
 #### Loading the output file
 When the script is run, it will generate a file named "acHARSummary.txt" in the output subdirectory of
 your current working directory. To load the file into your R interpreter, you can run:
+
 `outputTable <- read.table("./output/acHARSummary.txt",header=TRUE)`
 
 The expected data frame is 180 x 81 with a subject, activity and 178 assorted sensor means.
 
 ### Codebook.md
-The Codebook contains all the modifications and updates to the original codebook along with the data to 
+The [Codebook](CodeBook.md) contains all the modifications and updates to the original codebook along with the data to 
 indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
 ### Sample Dataset
