@@ -18,6 +18,7 @@ The script performs the following actions:
 * Combine the test and training data sets
 * Filter out the columns that don't include standard deviations or means
 * Create a summary set from the filtered data that is comprised of the means of the remaining columns and present it in a tidy dataset.
+* Write the data out to a file in the output directory.
 
 #### Requirements
 This script requires three non-base libraries to be installed in order to run:
